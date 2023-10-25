@@ -24,10 +24,10 @@ const Navbar = ()=>{
                 <hr/>
            </div>
            <div className="category-container"> 
-              <p onClick={()=>displayItems("All")}>All</p>
-              <p onClick={()=>displayItems("breakfast")}>Breakfast</p>
-              <p onClick={()=>displayItems("lunch")}>Lunch</p>
-              <p onClick={()=>displayItems("shakes")}>Shakes</p>
+              <p  id="main"onClick={()=>displayItems("All")}>All</p>
+              <p id="filter-btn-1" onClick={()=>displayItems("breakfast")}>Breakfast</p>
+              <p id="filter-btn-2" onClick={()=>displayItems("lunch")}>Lunch</p>
+              <p id="filter-btn-3" onClick={()=>displayItems("shakes")}>Shakes</p>
            </div>
            <div className="menu-item-list">
               {filteredItem.map((item)=><DisplayMenuItem data={item}/>)}
