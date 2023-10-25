@@ -10,3 +10,31 @@ button{
     justify-content: center;
     align-items: center;
 }
+.category-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.navbar-heading-container{
+    text-align: center;
+}
+.navbar-heading-container hr{
+    width: 20vw;
+}
+.menu-item-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10vw;
+    padding: 0px 10vw;
+    margin-top: 50px;
+}
+.menu-item-container{
+    display: flex;
+    gap: 20px;
+}
+.item-detail-container{
+    display: flex;
+    justify-content: space-between;
+}
